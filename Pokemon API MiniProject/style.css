@@ -1,0 +1,31 @@
+img{
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+}
+input{
+    width: 75%;
+    padding: 10px 15px;
+    font-family: Arial, sans-serif;
+    border: bold;
+    font-size: 1rem;
+    font-weight: bold;
+}
+button{
+    border: none;
+    font-size: 1rem;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    border-radius: 20px;
+    padding: 10px 15px;
+    background-color: lightblue;
+    color: green;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+}
+#myH1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5rem;
+}

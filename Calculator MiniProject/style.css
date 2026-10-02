@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height : 100vh;
+    background-image: url(Calci.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size : cover;
+    background-attachment: fixed;
+}
+button{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color: hsla(0, 0%, 0%, 0.80);
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover{
+    background-color: hsla(0, 0%, 0%, 0.90);
+}
+button:active{
+    background-color: hsla(0, 0%, 0%, 1);
+}
+#keys
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 25px;
+}
+#calculator{
+    width: 100%;
+    font-family: Arial, sans-serif;
+    background-color: hsla(0, 0%, 83%, 0.589);
+    border-radius: 15px;
+    max-width: 500px;
+    overflow: hidden;
+    margin: 50 auto;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+#display{
+    width: 100%;
+    padding:20px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.849);
+    color: white;
+}
+.operator{
+    background-color: orange;
+}
+.operator:hover{
+    background-color: rgba(255, 166, 0, 0.781);
+}
+.operator:active{
+    background-color: rgba(255, 166, 0, 0.85);
+}

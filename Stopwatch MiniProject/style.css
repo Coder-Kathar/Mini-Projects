@@ -1,0 +1,69 @@
+body{
+    margin : 0;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.849);
+    background-image: url(watch.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size : cover;
+    background-attachment: fixed;
+}
+
+#myh1{
+    font-size: 3rem;
+    font-family: Arial, sans-serif;
+    color: hsla(0, 0%, 50%, 0.795);
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border: 5px solid;
+    border-radius: 50px;
+    background-color: white;
+}
+
+#display{
+    font-size: 4rem;
+    font-family: monospace;
+    font-weight: bold;
+    color:hsl(0,0,30);
+    text-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.75);
+    margin-bottom : 25px;
+}
+
+#controls button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 125px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color : white;
+    transition: background-color 0.5s ease;
+}
+
+#startBtn{
+    background-color: Green;
+}
+#startBtn:hover{
+    background-color: rgba(0, 128, 0, 0.863);
+}
+#stopBtn{
+    background-color: red;
+}
+#stopBtn:hover{
+    background-color: rgba(255, 38, 0, 0.884);
+}
+#resetBtn{
+    background-color: blue;
+}
+#resetBtn:hover{
+    background-color: rgba(4, 4, 180, 0.918);
+}
